@@ -1,8 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* ---------------------------------------header----------------------------------------------- */
+
 header {
     margin: 0;
     padding-left: 25px;
+}
+
+.heading {
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.name {
+    font-family: "Barlowcondensed", sans-serif;
+    font-size: 50px;
+    font-weight: 350;
+    margin-top: 50px;
+    color: whitesmoke;
+}
+
+.headline {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: whitesmoke;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 18px;
+    padding: 0;
 }
 
 /* ---------------------------------------logo----------------------------------------------- */
@@ -42,22 +77,19 @@ header {
     background-color: #ADA5A2;
 }
 
-.heading {
-    padding: 10px;
-    margin-left: 50px;
+.ui-menu-color-home {
+    background-color: #B7B096;
+    float: left;
+    /* color: whitesmoke */
 }
 
-.name {
-    font-family: "Barlowcondensed", sans-serif;
-    font-size: 50px;
-    font-weight: 350;
-    margin-top: 50px;
-    color: whitesmoke;
+.ui-menu-color-history {
+    background-color: #A18D71;
+    display: inline-block;
+       
 }
 
-.headline {
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    font-weight: 100;
-    color: whitesmoke;
+.ui-menu-color-contact {
+    background-color: #463C37;
+    float: right;
 }
