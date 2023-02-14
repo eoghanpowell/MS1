@@ -2,16 +2,36 @@
 
 header {
     margin: 0;
+    padding-left: 25px;
 }
 
+
+
 .logo {
-    background: url("../images/1588435846269.jpeg");
+    min-width:500px;
+    min-height:500px;
+    /* pretty sure this is going to cause problems on mobile */
+    border-radius: 50%;
+    background: url("../images/IMG_5393.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
     transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-    -moz-animation: all .5s ease-in-out;
-}
-/* look at making a change to the logo transisition. Consider that one that Duncan had on LinkedIn, could be very cool */
+    -moz-transition: all .5s ease-in-out;
+    /* 2 line snippet below tutorialspoint.com */
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%)
+    }
+
+
+.logo:hover {
+    filter: none;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    border-radius: 30px;
+    }
+
+
+
