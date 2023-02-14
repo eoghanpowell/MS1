@@ -86,22 +86,46 @@ header {
 }
 
 .ui-menu-color-home {
-    background-color: #B7B096;
+    /* background-color: #B7B096; */
     column-width: 33%;
     /* float: left; */
-    /* color: whitesmoke */
+    color: #ADA5A2;
 }
 
 .ui-menu-color-history {
-    background-color: #A18D71;
+    /* background-color: #A18D71; */
     display: inline-block;
-    column-width: 33%;
-       
+    /* column-width: 33%; */
+    color: #ADA5A2;        
 }
 
 .ui-menu-color-contact {
-    background-color: #463C37;
+    /* background-color: #463C37; */
     column-width: 33%;
     /* float: right; */
+    color: #ADA5A2;
+    text-decoration: none;
 }
 
+.ui-menu-color-download {
+    /* background-color: #F2EBE0; */
+    column-width: 33%;
+    /* float: right; */
+    text-decoration: none;
+}
+
+.menucontainer a {
+    width: 100%;
+    text-decoration: none;
+    color: #ADA5A2;
+    height: 220px;
+}
+
+.menucontainer a:hover {
+    color: black;
+}
+
+/* need to check this is working once the links are all in place */
+.menucontainer a:active {
+    color: black;
+}
