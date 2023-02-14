@@ -5,7 +5,7 @@ header {
     padding-left: 25px;
 }
 
-
+/* ---------------------------------------logo----------------------------------------------- */
 
 .logo {
     min-width:500px;
@@ -24,14 +24,40 @@ header {
     -webkit-filter: grayscale(100%)
     }
 
-
 .logo:hover {
     filter: none;
     transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     border-radius: 30px;
+    background: url("../images/1588435846269.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 
+/* ---------------------------------------colors----------------------------------------------- */
 
+.bg-color-headline {
+    background-color: #ADA5A2;
+}
 
+.heading {
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.name {
+    font-family: "Barlowcondensed", sans-serif;
+    font-size: 50px;
+    font-weight: 350;
+    margin-top: 50px;
+    color: whitesmoke;
+}
+
+.headline {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: whitesmoke;
+}
