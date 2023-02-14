@@ -33,16 +33,24 @@ header {
 
 .menucontainer {
     font-size: 0;
+    text-align: center;
+    width: 100%;
 }
 
 #nav li {
     font-size: 18px;
     padding: 0;
+    width: 100%;
 }
 
-/* ---------------------------------------logo----------------------------------------------- */
+.box {
+    color: green;
+}
 
-.logo {
+
+/* ---------------------------------------hero----------------------------------------------- */
+
+.hero {
     min-width:500px;
     min-height:500px;
     /* pretty sure this is going to cause problems on mobile */
@@ -59,7 +67,7 @@ header {
     -webkit-filter: grayscale(100%)
     }
 
-.logo:hover {
+.hero:hover {
     filter: none;
     transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -79,17 +87,21 @@ header {
 
 .ui-menu-color-home {
     background-color: #B7B096;
-    float: left;
+    column-width: 33%;
+    /* float: left; */
     /* color: whitesmoke */
 }
 
 .ui-menu-color-history {
     background-color: #A18D71;
     display: inline-block;
+    column-width: 33%;
        
 }
 
 .ui-menu-color-contact {
     background-color: #463C37;
-    float: right;
+    column-width: 33%;
+    /* float: right; */
 }
+
