@@ -132,14 +132,25 @@ header {
 }
 
 .social-networks i{
-    color: #ADA5A2;
+    color: #F2EBE0;
   }
 
-/* ---------------------------------------colors----------------------------------------------- */
+.page-footer {
+    background-color: #ADA5A2;
+}
+
+.copyright {
+    color: #F2EBE0;
+  }
+
+
+/* ---------------------------------------footer----------------------------------------------- */
 
 footer{
     height: 150px;
-  }
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
   
   .social-networks {
     text-align: center;
@@ -152,5 +163,22 @@ footer{
   .social-networks i{
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 1%;
     }
+
+    /* .location-footer {
+        text-align: left;
+        display: inline;
+    }
+
+    .contact-footer {
+        float: right;
+    } */
+
+.page-footer {
+    margin: 1px;
+}
+
+.copyright {
+    margin-bottom: 10px;
+}
