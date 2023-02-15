@@ -53,7 +53,8 @@ header {
 .hero {
     min-width:500px;
     min-height:500px;
-    /* pretty sure this is going to cause problems on mobile */
+    /* pretty sure this is going to cause problems on mobile. 
+    Might have to look at making the changes with media queries?? */
     border-radius: 50%;
     background: url("../images/IMG_5393.jpg");
     background-position: center;
@@ -127,5 +128,29 @@ header {
 
 /* need to check this is working once the links are all in place */
 .menucontainer a:active {
-    color: black;
+    text-decoration: underline;
 }
+
+.social-networks i{
+    color: #ADA5A2;
+  }
+
+/* ---------------------------------------colors----------------------------------------------- */
+
+footer{
+    height: 150px;
+  }
+  
+  .social-networks {
+    text-align: center;
+  }
+  
+  .social-networks li{
+    display: inline;
+  }
+  
+  .social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    }
