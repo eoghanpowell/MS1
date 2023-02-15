@@ -61,8 +61,10 @@
 /* ---------------------------------------hero----------------------------------------------- */
 
 .hero {
-    min-width:5000px;
-    min-height:5000px;
+    min-width:250px;
+    min-height:250px;
+    max-width: 500px;
+    max-height: 500px;
     /* pretty sure this is going to cause problems on mobile. 
     Might have to look at making the changes with media queries?? */
     border-radius: 50%;
@@ -89,6 +91,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     }
+
+.hero {
+    margin: auto;
+}
 
 /* ---------------------------------------colors----------------------------------------------- */
 
@@ -128,8 +134,12 @@
 .menucontainer a {
     width: 100%;
     text-decoration: none;
-    color: #ADA5A2;
+    color: whitesmoke;
     height: 220px;
+}
+
+.menucontainer {
+    background-color: #ADA5A2;
 }
 
 .menucontainer a:hover {
@@ -156,11 +166,23 @@
 /* ---------------------------------------main----------------------------------------------- */
 
 .main {
-    /* position: absolute; */
+    position: relative;
 }
 
 .main h1 {
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #463C37;
+    font-size: 48px;
+}
+
+.herocontainer {
+    text-align: center;
+}
+
+.filler {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* ---------------------------------------footer----------------------------------------------- */
@@ -200,4 +222,9 @@ footer{
 
 .copyright {
     margin-bottom: 10px;
+}
+
+/* ---------------------------------------history----------------------------------------------- */
+.historysubhead {
+    text-align: center;
 }
