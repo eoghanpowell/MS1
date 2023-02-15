@@ -2,22 +2,32 @@
 
 /* ---------------------------------------header----------------------------------------------- */
 
-header {
+.header {
     margin: 0;
-    padding-left: 25px;
+    padding-left: 0;
+    text-align: center;
 }
 
 .heading {
-    padding: 10px;
-    margin-left: 50px;
+    padding: none;
+    margin-left: none;
 }
 
 .name {
     font-family: "Barlowcondensed", sans-serif;
     font-size: 50px;
     font-weight: 350;
-    margin-top: 50px;
+    margin-top: 20px;
     color: whitesmoke;
+}
+
+.topmenu {
+    text-align: center;
+    position: fixed-top;
+}
+
+.row{
+    margin: none;
 }
 
 .headline {
@@ -51,8 +61,8 @@ header {
 /* ---------------------------------------hero----------------------------------------------- */
 
 .hero {
-    min-width:500px;
-    min-height:500px;
+    min-width:5000px;
+    min-height:5000px;
     /* pretty sure this is going to cause problems on mobile. 
     Might have to look at making the changes with media queries?? */
     border-radius: 50%;
@@ -143,6 +153,15 @@ header {
     color: #F2EBE0;
   }
 
+/* ---------------------------------------main----------------------------------------------- */
+
+.main {
+    /* position: absolute; */
+}
+
+.main h1 {
+    text-align: center;
+}
 
 /* ---------------------------------------footer----------------------------------------------- */
 
