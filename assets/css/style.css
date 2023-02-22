@@ -183,13 +183,15 @@
 .filler {
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 /* ---------------------------------------footer----------------------------------------------- */
 
-footer{
+.footer {
     height: 150px;
-    padding-top: 5px;
+    padding-top: 50px;
     padding-bottom: 5px;
     }
   
@@ -218,7 +220,7 @@ footer{
 
 .page-footer {
     margin: 1px;
-}
+    }
 
 .copyright {
     margin-bottom: 10px;
@@ -227,4 +229,46 @@ footer{
 /* ---------------------------------------history----------------------------------------------- */
 .historysubhead {
     text-align: center;
+}
+
+
+/* ---------------------------------------contact----------------------------------------------- */
+
+.contactbackground {
+    background-image: url("../images/Untitled.jpg");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 1px;
+    filter: grayscale(65%);
+  }
+
+ .contactmain {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.contactmain h1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #463C37;
+    font-size: 48px;
+}
+
+.contactsubhead {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #463C37;
+    font-size: 36px;
+    padding: 50px;
+}
+
+/* ------------------------------------contactform----------------------------------------------- */
+
+.formcontainer {
+    position: relative;
+    padding-top: 10px;
 }
