@@ -264,6 +264,7 @@
     font-family: "Montserrat", sans-serif;
     color: #463C37;
     font-size: 48px;
+    padding: 10px;
 }
 
 .contactsubhead {
@@ -272,6 +273,17 @@
     color: #463C37;
     font-size: 36px;
     padding: 50px;
+    }
+
+.contactme h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.contactme p {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 /* ------------------------------------contactform----------------------------------------------- */
